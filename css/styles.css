@@ -1,20 +1,24 @@
-
-
-
 /* Fonts */
 
+body{
+font-family: "anisette-petite", sans-serif;
+font-style: normal;
+}
+
 h1{
-font-family: anisette-std-petite-2, sans-serif;
+font-family: "anisette-petite", sans-serif;
 font-style: normal;
 font-weight: 300;
+text-transform: uppercase;
 }
 
 h1 span{
-
-font-family: anisette-petite-sc, sans-serif;
-font-style: normal;
-font-weight: 500;
-
+font-family: "anisette-petite-sc", sans-serif;
+font-style: blod;
+font-weight: 700;
 }
 
+h2, h3{
+font-family: "anisette-petite-sc", sans-serif;
 
+}
