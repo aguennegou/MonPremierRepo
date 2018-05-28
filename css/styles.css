@@ -20,5 +20,65 @@ font-weight: 700;
 
 h2, h3{
 font-family: "anisette-petite-sc", sans-serif;
+}
 
+p{
+	font-size: 18px;
+}
+
+
+/* Zoning */
+
+header{
+position: fixed;
+width: 50%;
+width-min:375px;
+min-width: 375px;
+float: left;
+background-color: #EBEBEB;
+height: 100vh;
+text-align: center;
+padding-top: 200px;
+}
+
+header section{
+	width: 400px;
+	margin: auto;
+}
+
+@media screen and (max-width: 1024px){
+
+header{
+
+width: 100%;
+height: auto;
+padding-top: 20px;
+padding-bottom: 1px;
+position: relative;
+float: none;
+}
+
+article section{
+width: 100%;
+}
+}
+
+
+article section {
+display: block;
+width: 50%;
+float: right;
+}
+
+article{
+padding: 40px;
+}
+
+/* HEADER */
+header p{
+	font-size: 78px;
+	margin: 0;
+}
+header p span{
+	color:yellow;
 }
