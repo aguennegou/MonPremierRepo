@@ -29,13 +29,40 @@ p{
 
 /* Zoning */
 
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1024px){
+
+#conteneur{
+    flex-direction: column;
+}
+}
+
+
+
 header{
-position: fixed;
-width: 50%;
+min-width: 500px;
+background-color: #EBEBEB;
+}
+
+article{
+
+}
+
+footer{
+	text-align: center;
+}
+
+
+/*
 width-min:375px;
 min-width: 375px;
 float: left;
-background-color: #EBEBEB;
 height: 100vh;
 text-align: center;
 padding-top: 200px;
@@ -45,8 +72,6 @@ header section{
 	width: 400px;
 	margin: auto;
 }
-
-@media screen and (max-width: 1024px){
 
 header{
 
@@ -73,6 +98,8 @@ float: right;
 article{
 padding: 40px;
 }
+*/
+
 
 /* HEADER */
 header p{
