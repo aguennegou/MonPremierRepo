@@ -31,31 +31,35 @@ p{
 
 #conteneur
 {
-    display: flex;
-    justify-content: center;
+	display: flex;
+    justify-content: flex-start;
 }
 
 
 @media screen and (max-width: 1024px){
-
 #conteneur{
     flex-direction: column;
+      height: auto;
 }
 }
-
 
 
 header{
-min-width: 500px;
+flex: 1;
 background-color: #EBEBEB;
+padding: 20px;
+text-align: center;
 }
 
 article{
-
+flex: 1;
+padding: 20px;
 }
 
 footer{
 	text-align: center;
+	flex: 1;
+	align-content: flex-end;
 }
 
 
@@ -63,7 +67,7 @@ footer{
 width-min:375px;
 min-width: 375px;
 float: left;
-height: 100vh;
+
 text-align: center;
 padding-top: 200px;
 }
